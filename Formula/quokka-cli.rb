@@ -1,15 +1,15 @@
 class QuokkaCli < Formula
   desc "CLI to inspect and tidy an iPhone connected over USB to a Mac."
   homepage "https://github.com/dutradotdev/quokka"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/dutradotdev/quokka/releases/download/v0.1.0/quokka-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "ecbc814b8b68b76c9c4ff85d0bc21b2b00bf210dbb51eaf789fe36090da84803"
+      url "https://github.com/dutradotdev/quokka/releases/download/v0.1.1/quokka-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "9a0e2f5fbf0089b7c0579cee6fcc2da3da31e87fa003c1e83c21f57e2ec17199"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/dutradotdev/quokka/releases/download/v0.1.0/quokka-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "1a5b58a5fafb8c039a72b1aa16b87877b1e8641531da16ecfe85a33086a99775"
+      url "https://github.com/dutradotdev/quokka/releases/download/v0.1.1/quokka-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "998c64f8c2d8e0b104a7de954df236ec07613c2eb79175131b59951252d41db7"
     end
   end
   license "MIT"
